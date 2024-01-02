@@ -1,0 +1,9 @@
+Kode ini mengimplementasikan serangan Denial of Service (DoS) yang bersifat destruktif dan 
+dapat merugikan sistem target. Pada intinya, serangan ini akan mencoba membuat koneksi ke target (dengan alamat IP atau URL HTTP) 
+
+yang diarahkan pada koneksi tcp,icmp,udp,http
+
+dengan dua metode penggunaan  (payload) mengirimkan sejumlah paket yang bersifat acak (string) dan mengirim file fisik yang nanti diacak oleh urandom.
+
+Jumlah paket yang akan dikirim ditentukan oleh input pengguna saat menjalankan program  dan juga threading serta diletakan setelah while true sehingga prosesnya akan secara berulang mengirim terus
+
