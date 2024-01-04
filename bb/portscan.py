@@ -9,7 +9,7 @@ thread_list =[]
 
 def check_port(host, port):
     global opened_list
-    s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    s = socket.socket(socket.AF_INET,socket.SOCK_STREAM) #ganti jenis socketnya jika mau melihat port terbuka pada koneksi lain / bukan tcp
     s.settimeout(3)
     result= s.connect_ex((host, port))
     
@@ -18,7 +18,7 @@ def check_port(host, port):
         print(f"port {port} is opened")
     # else:
     #     print (f"{port} is closed: {errno.errorcode[result]}")
-host = "http://localhost/"
+host = "http://localhost/" # ganti url ke url yang mau dites untuk dilihat port apa yang terbuka
 #check_port(host, port)
 
 for port in range(START_PORT, END_PORT+1):
