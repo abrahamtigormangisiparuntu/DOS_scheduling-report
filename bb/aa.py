@@ -134,7 +134,7 @@ def icmp_pingofdeath(): # untuk metode ke tiga ini melaakukan metode ping death,
 
 def http_flood():
 #kode akan segera dimasukan karena outputnya baik get mmasi 200 & 400 dan pada post 400, sehingga masi cari cara apa yang bisa membeani server hingga status code 500
-   
+#kemudian jika ingin post ke web besar maka kalian harus mengethaui api dari web tersebut  
     web_device_agent = ['Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36','Mozilla/5.0 (X11; Linux i686; rv:110.0) Gecko/20100101 Firefox/110.0.']
     web_reference = ['https://www.torproject.org/','https://www.youtube.com/',
                  'https://www.google.com/', 'https://id.search.yahoo.com/?fr2=p:fprd,mkt:id',
