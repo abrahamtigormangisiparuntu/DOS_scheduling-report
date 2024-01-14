@@ -7,7 +7,10 @@ information:
    tentukan jumlah pengiriman ulang berapa kali (pack)
    
 3.Pilih jenis paket yang ingin dilakukan pengiriman paket flood (TCP, UDP, ICMP(PING), HTTP(GET&POST))
+
 4.tentukan 2 metode paket (urandom data dan upload file ke kode)
+
 5.Tentukan jadwal program bekerja (baik waktu-hari-bulan-tahun), maka kode akan bekerja pada wkatu tersebut
+
 6. Akan ada default berupa csv, yang berfungsi sebagai layaknya report terakit proses serangan yang telah berjalan
 
