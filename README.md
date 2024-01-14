@@ -12,5 +12,5 @@ information:
 
 5.Tentukan jadwal program bekerja (baik waktu-hari-bulan-tahun), maka kode akan bekerja pada wkatu tersebut
 
-6. Akan ada default berupa csv, yang berfungsi sebagai layaknya report terakit proses serangan yang telah berjalan
+6.Akan ada default berupa csv, yang berfungsi sebagai layaknya report terakit proses serangan yang telah berjalan
 
