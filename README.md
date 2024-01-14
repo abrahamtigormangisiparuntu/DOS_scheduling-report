@@ -4,8 +4,10 @@ information
 
 2.Pilih jenis paket yang ingin dilakukan pengiriman paket flood (TCP, UDP, ICMP(PING), HTTP(GET&POST))
 
-3. tentukan 2 metode paket (urandom data dan upload file ke kode)
+3.tentukan 2 metode paket (urandom data dan upload file ke kode)
 
 4.Tentukan jadwal program bekerja (baik waktu-hari-bulan-tahun), maka kode akan bekerja pada wkatu tersebut
 
 5. Akan ada default berupa csv, yang berfungsi sebagai layaknya report terakit proses serangan yang telah berjalan
+6. bisa gunakan juga kode port scan untuk melihat port apa yang terbuka pada ip tersebut, sehingga bisa jadi rekomendasi
+   untuk didos ke port tersebut
