@@ -212,3 +212,6 @@ while True:
         break
 
 
+reference:
+https://www.youtube.com/watch?v=iVWfcw6_pZ4 (tcp flood attack)
+https://systemweakness.com/ping-and-syn-flood-attacks-with-python-and-scapy-6e4515435492 (focus for modul scapy)
